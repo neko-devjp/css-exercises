@@ -1,3 +1,9 @@
+/* Div One と Div Three	テキストと枠線（border）の間に 32px のスペースがある
+Div One	ページ上の他の要素との間に 12px のスペースがある
+Div Two と Div Three の間	48px の隙間がある
+Div Three	右寄せになっている
+Div Three の配置方法	marginを使って右寄せしている（floatやflexboxなどは使わない） */
+
 body {
   max-width: 600px;
   margin: 0 auto;
@@ -7,15 +13,15 @@ body {
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  padding: 32px;
+  margin-bottom: 12px;
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 48px;
 }
 
 .three {
@@ -23,6 +29,6 @@ body {
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  padding: 32px;
+  margin-left: auto;
 }
